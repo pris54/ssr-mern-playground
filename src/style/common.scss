@@ -1,0 +1,87 @@
+@font-face {
+  font-family: $secondary-font-family;
+  src: url('/src/assets/fonts/FjallaOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: $primary-font-family;
+  src: url('/src/assets/fonts/MerriweatherSans.ttf');
+}
+
+* {
+  box-sizing: border-box;
+  color: var(--secondary-color);
+  font-family: $primary-font;
+
+  > %headings {
+    color: var(--primary-color);
+    font-family: $secondary-font;
+  }
+}
+
+#root {
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+body {
+  align-items: center;
+  color: (--primary-color);
+  display: flex;
+  flex-direction: column;
+  font-family: $primary-font;
+  font-size: 18px;
+  justify-content: center;
+  height: 100vh;
+  line-height: 28px;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Generic */
+.container {
+  margin: 0 auto;
+  max-width: 992px;
+  text-align: left;
+  width: 92%;
+}
+
+.app-wrapper {
+  background: var(--bg-image) no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 100%;
+
+  > * {
+    transition: all 0.3s ease-out;
+  }
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.main {
+  border-radius: var(--border-radius);
+  background: var(--main-bg-color);
+  box-shadow: 0 0 12px 0 rgb(0 0 0 / 22%);
+  min-width: 280px;
+  min-height: 200px;
+  padding: 30px;
+  width: 600px;
+}
+
+.example {
+  color: blue;
+
+  &:hover {
+    color: rebeccapurple;
+  }
+}

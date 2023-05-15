@@ -1,0 +1,23 @@
+{
+  "appName": "Nassak App",
+  "pageNames": {
+    "about": "Sobre nosotros",
+    "engine": "Motor",
+    "fetch": "Obtener",
+    "home": "Inicio",
+    "pageNotFound": "Pagina no encontrada."
+  },
+  "aboutText": "Sobre nosotros (pantalla)",
+  "engineText": "Motor (pantalla)",
+  "fetchText": "Obtener (pantalla)",
+  "homeText": "Inicio (pantalla)",
+  "homeButtonText": "Pincha aqui",
+  "loadableText": "Este es un componente descarcable",
+  "notFoundText": "Pantall equivocada..!",
+  "offlineText": "Offline",
+  "counterDescription": {
+    "local": "State local",
+    "global": "tate global"
+  },
+  "themeSwitcherDescription": "Selector de tema"
+}
