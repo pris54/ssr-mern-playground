@@ -11,7 +11,7 @@ export { defaultLangTranslations }
 
 export const supportedLangs = {
   en: 'English',
-  de: 'Deutsch'
+  es: 'Español'
 }
 
 /*
@@ -26,12 +26,12 @@ export const preloadedTranslations = {
   Import all your translations as types.
 */
 type en = typeof import('./translations/en.json')
-type de = typeof import('./translations/de.json')
+type es = typeof import('./translations/es.json')
 
 export type TSupportedLanguages = typeof supportedLangs
 /*
   For proper typings, add all your translation types here via ampersand (&).
 */
-export type TTranslations = (en & de) | { [key: string]: any }
+export type TTranslations = (en & es) | { [key: string]: any }
 
 export const langUrl = '/lang/{lang}.json'

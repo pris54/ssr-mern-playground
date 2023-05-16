@@ -22,7 +22,7 @@ const Fetch: FC = (): ReactElement => {
   const { t } = useTranslations()
 
   return (
-    <div className='main fetch'>
+    <div className='main centered'>
       <PageMeta title={t.pageNames.fetch} />
       <h1>{t.fetchText}</h1>
       <div className={styles.wrapper}>

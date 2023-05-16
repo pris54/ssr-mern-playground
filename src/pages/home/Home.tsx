@@ -19,7 +19,7 @@ const Home: FC = (): ReactElement => {
   }, [])
 
   return (
-    <div className='main home'>
+    <div className='main centered'>
       <PageMeta title={t.pageNames.home} description='test' />
       <h1>{t.homeText}</h1>
       <div className={styles.counters}>

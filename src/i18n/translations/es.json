@@ -5,7 +5,8 @@
     "engine": "Motor",
     "fetch": "Obtener",
     "home": "Inicio",
-    "pageNotFound": "Pagina no encontrada."
+    "pageNotFound": "Pagina no encontrada.",
+    "state": "State"
   },
   "aboutText": "Sobre nosotros (pantalla)",
   "engineText": "Motor (pantalla)",
@@ -19,5 +20,6 @@
     "local": "State local",
     "global": "tate global"
   },
+  "stateText": "State page",
   "themeSwitcherDescription": "Selector de tema"
 }

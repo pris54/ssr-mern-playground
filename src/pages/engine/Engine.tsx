@@ -1,5 +1,6 @@
 import { FC, ReactElement, useState, useEffect } from 'react'
 import { fetchPage } from 'services/apiService'
+import { PageMeta } from 'components'
 import { WithSpinner } from 'hocs'
 import useTranslations from 'i18n/useTranslations'
 
@@ -42,6 +43,7 @@ const Engine: FC = (): ReactElement => {
 
   return (
     <div className='main engine'>
+      <PageMeta title={t.pageNames.engine} description='Engine' />
       <h1>{t.engineText}</h1>
       <div>
         <WithSpinner isSpinnerShown={shouldSpin} minTimeSpinnerShown={300}>

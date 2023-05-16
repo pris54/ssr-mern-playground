@@ -20,7 +20,7 @@ const About: FC = (): ReactElement => {
   const { t, tt } = useTranslations()
 
   return (
-    <div className='main about'>
+    <div className='main centered'>
       <PageMeta title={t.notFoundText} />
       <h1>{tt('aboutText')}</h1>
       <div className={styles.content}>

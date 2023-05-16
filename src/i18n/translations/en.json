@@ -5,7 +5,8 @@
     "engine": "Engine",
     "fetch": "Fetch",
     "home": "Home",
-    "pageNotFound": "Page Not Found"
+    "pageNotFound": "Page Not Found",
+    "state": "State"
   },
   "aboutText": "About page",
   "engineText": "Engine page",
@@ -19,5 +20,6 @@
     "local": "Local State",
     "global": "Global State"
   },
+  "stateText": "State page",
   "themeSwitcherDescription": "Theme switcher"
 }

@@ -1,6 +1,5 @@
 import { FC, memo } from 'react'
 import { Helmet } from 'react-helmet-async'
-
 import useTranslations from 'i18n/useTranslations'
 
 import favicon1 from 'images/favicon.png'
